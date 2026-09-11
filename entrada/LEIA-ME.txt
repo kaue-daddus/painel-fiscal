@@ -1,0 +1,15 @@
+Pasta de carga manual. Coloque aqui os arquivos do jeito que o Tesouro entrega (sem renomear o conteúdo):
+
+  capag-municipios-*.xlsx                          planilha oficial da CAPAG dos municípios
+  cauc-*.csv  ou  relatorio-situacao-*.csv          relatório do CAUC (municípios, todas as UFs)
+  sadipem-*.csv                                    consulta pública geral do SADIPEM (a que traz o Código IBGE)
+  AAAAMMDD-01-dados-basicos.csv                    CDP — os seis arquivos abaixo
+  AAAAMMDD-02-dividas.csv
+  AAAAMMDD-05-dividas-execucao-financeira.csv
+  AAAAMMDD-06-garantias.csv
+  AAAAMMDD-10-pvls-nao-vinculados.csv
+  AAAAMMDD-13-criterios-homologacao.csv
+  ppp-*.xlsx                                       planilha consolidada de PPPs (RREO Anexo 13)
+
+Regra: o script usa o arquivo MAIS RECENTE de cada tipo. Uma data no nome (AAAAMMDD) vira a data mostrada no painel.
+Esta pasta não vai para o GitHub (está no .gitignore) — os brutos ficam só no seu computador ou no Drive.
